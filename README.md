@@ -20,17 +20,18 @@ $ gem install rails
 $ rails -v
 Rails 6.0.3.2
 
-#############################################
 
-### CREATE THE APP 
+
+## 2nd step: CREATE THE APP 
 $ rails _6.1.6_ new rails+webpack+bootstrap_demo --database=postgresql --webpack
 
-# Quick scaffold for creating the 'Article' 
+#### Quick scaffold for creating the 'Article' 
 $ rails generate scaffold Article title:string content:text
 
 ##### create db and do migrate
 $ rails db:create db:migrate 
-# start server
+
+#### start server
 $ rails s
 
 ## Now we should have a page in localhost:3000/posts
