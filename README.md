@@ -2,10 +2,11 @@
 
 These are the minimal versions to use:
 
-#### update Ruby version  
+#### update Ruby version
 `$ rvm install 2.7.1`  
 `$ ruby -v`
 `ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-darwin19]`
+
 #### update Node version
 `$ nvm install 14.8`
 
@@ -15,16 +16,13 @@ v14.8.0
 #### install Yarn
 `$ npm install -g yarn`
 
-`$ yarn -v`
+`$ yarn -v`  
 1.17.3
 
 #### install Rails
-$ gem install rails
-
-$ rails -v
-
-Rails 6.0.3.2
-...
+`$ gem install rails`  
+`$ rails -v`  
+`Rails 6.0.3.2`
 
 
 ## 2nd step: CREATE THE APP 
@@ -42,15 +40,13 @@ $ rails s
 
 ### => Now we should have a page in localhost:3000/posts
 
-#### Install Bootstrap with yarn 
+
+## Install Bootstrap with yarn 
 ###### (from Bootstrap 5 we don't need JQuery anymore)
 
 $ yarn add bootstrap@next
 
 $ yarn add @popperjs/core
-
-
-
 
 ## Import Bootstrap styles through Javascript styles by updating the application layout 'app/views/layouts/application.html.erb'
 
@@ -70,8 +66,6 @@ $ yarn add @popperjs/core
 
 ###### *Notice the new tag we added is stylesheet_pack_tag instead of the existing stylesheet_link_tag already there.*
 ###### *This new tag will import the styles sheets from 'app/javascript/packs/*.js' in this case, it will import styles from 'app/javascript/packs/application.js'*
-
-
 
 ## Next, we need to import bootstraps to our 'application.js'
 
