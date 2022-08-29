@@ -9,7 +9,7 @@ These are the minimal versions to use:
 #### update Node version
 `$ nvm install 14.8`
 
-`$ node -v`
+`$ node -v`  
 v14.8.0
 
 #### install Yarn
