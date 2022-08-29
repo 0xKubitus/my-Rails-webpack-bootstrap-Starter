@@ -1,3 +1,7 @@
+***
+---
+- - -
+
 ## 1st step: checking your ruby, rails, node & yarn versions:
 
 These are the minimal versions to use:
@@ -40,6 +44,9 @@ $ rails s
 
 ### => Now we should have a page in localhost:3000/posts
 
+***
+---
+- - -
 
 ## Install Bootstrap with yarn 
 ###### (from Bootstrap 5 we don't need JQuery anymore)
@@ -79,3 +86,4 @@ We will then put our stylesheets in here and they will be managed by webpack
 #### in file app/javascript/packs/application.js, at bottomm of the file, add:
 import "bootstrap"
 import "../stylesheets/application"
+
