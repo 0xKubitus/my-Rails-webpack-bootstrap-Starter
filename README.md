@@ -31,7 +31,8 @@ v14.8.0
 - - -
 
 ## 2nd step: CREATE THE APP 
-`$ rails _6.1.6_ new rails+webpack+bootstrap_demo --database=postgresql --webpack`
+`$ rails new rails+webpack+bootstrap_demo --database=postgresql --webpack`  
+###### (running `$ rails _6.1.6_ ...` allows to specify which version you want to use)
 
 ### -> Quick scaffold for creating the 'Article' 
 $ rails generate scaffold Article title:string content:text
@@ -55,9 +56,9 @@ $ yarn add @popperjs/core
 
 ## Import Bootstrap styles through Javascript styles by updating the application layout 'app/views/layouts/application.html.erb'
 
-#### add this new line
+#### add this new line...
 `<%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>`
-#### at the bottom in the head tage, so it looks like:
+#### ...at the bottom in the head tage, so it looks like:
 ```html
 <head>
   <title>BootstrapDemo</title>
