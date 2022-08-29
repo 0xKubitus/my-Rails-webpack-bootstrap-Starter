@@ -1,5 +1,4 @@
-***
----
+- - -
 - - -
 
 ## 1st step: checking your ruby, rails, node & yarn versions:
@@ -28,6 +27,8 @@ v14.8.0
 `$ rails -v`  
 `Rails 6.0.3.2`
 
+- - -
+- - -
 
 ## 2nd step: CREATE THE APP 
 `$ rails _6.1.6_ new rails+webpack+bootstrap_demo --database=postgresql --webpack`
@@ -44,9 +45,6 @@ $ rails s
 
 ### => Now we should have a page in localhost:3000/posts
 
-***
----
-- - -
 
 ## Install Bootstrap with yarn 
 ###### (from Bootstrap 5 we don't need JQuery anymore)
