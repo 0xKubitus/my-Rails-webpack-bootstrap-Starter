@@ -1,4 +1,5 @@
 - - -
+TUTORIAL INSTRUCTIONS
 - - -
 
 ## 1st step: checking your ruby, rails, node & yarn versions:
